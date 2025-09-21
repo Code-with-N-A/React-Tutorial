@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Basic body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Container for both counters */
+.man{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height: 50vh;
+}
+
+/* Individual counter card */
+.counter {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Heading styling */
+h1 {
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Buttons styling */
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+/* Disabled buttons */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Divider */
+hr {
+  margin: 30px 0;
+  border: 1px solid #ccc;
+}
+
+/* Optional: wrap buttons in a container for spacing */
+.counter-buttons {
+  margin-bottom: 20px;
+}

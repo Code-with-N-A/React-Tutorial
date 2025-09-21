@@ -1,0 +1,35 @@
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: aqua;
+  width: 100%;
+}
+
+.mean {
+  text-align: center;
+  width: 90%;
+  padding: 30px;
+
+}
+.im {
+  display: flex;
+  justify-content: space-between; /* text left, image right */
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: nowrap; /* important: row me hi rakhe, wrap na ho */
+}
+
+.im ul {
+  text-align: left;
+  font-weight: bold;
+ 
+}
+
+.im li {
+  margin-bottom: 10px;
+}
+
+.im img {
+  height: auto;
+}
